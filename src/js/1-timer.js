@@ -1,5 +1,5 @@
 import flatpickr from "flatpickr";
-
+import error from '../img/errorIcon.svg';
 import "flatpickr/dist/flatpickr.min.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
@@ -48,7 +48,7 @@ const unixTimeSpecific = specificDate.getTime();
         messageColor: '#FFFFFF',
         backgroundColor: '#B51B1B',
         position: 'topRight',
-        iconUrl: '../img/errorIcon.svg'
+        iconUrl: error
     })
  }
  else{
