@@ -48,7 +48,7 @@ const unixTimeSpecific = specificDate.getTime();
         messageColor: '#FFFFFF',
         backgroundColor: '#B51B1B',
         position: 'topRight',
-        iconUrl: './img/errorIcon.svg'
+        iconUrl: '../img/errorIcon.svg'
     })
  }
  else{
