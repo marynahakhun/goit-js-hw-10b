@@ -43,7 +43,7 @@ const unixTimeSpecific = specificDate.getTime();
  
  if (nowDate >= specificDate) {
     deactivateButton()
-    iziToast.show({
+    iziToast.error({
         message: 'Please choose a date in the future',
         messageColor: '#FFFFFF',
         backgroundColor: '#B51B1B',
